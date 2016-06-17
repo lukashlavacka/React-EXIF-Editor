@@ -1,0 +1,69 @@
+{
+  "name": "React-EXIF-Editor",
+  "private": true,
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukashlavacka/React-EXIF-Editor.git"
+  },
+  "homepage": "https://github.com/lukashlavacka/React-EXIF-Editor",
+  "author": {
+    "name": "Lukas Hlavacka",
+    "email": "lukas.hlavacka@gmail.com",
+    "url": "https://github.com/lukashlavacka/"
+  },
+  "scripts": {
+    "dev-build": "webpack --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --hot --inline --open --config webpack.dev.config.js",
+    "build": "webpack -p",
+    "lint": "eslint --ext .js --ext .jsx src"
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-jest": "*",
+    "bootstrap": "^3.3.6",
+    "chart.js": "^2.1.6",
+    "eslint": "*",
+    "eslint-plugin-react": "*",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "*",
+    "file-loader": "^0.8.5",
+    "fs": "0.0.2",
+    "imports-loader": "^0.6.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "lodash": "^4.13.1",
+    "piexifjs": "^1.0.0",
+    "q": "^2.0.3",
+    "react": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-json-tree": "^0.8.0",
+    "url-loader": "^0.5.7",
+    "webpack": "*"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-jest": "^12.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.9.2",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-import": "^1.9.1",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.1",
+    "estraverse-fb": "^1.3.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
